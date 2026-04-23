@@ -1,0 +1,197 @@
+
+.sitename {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.text {
+    color: #272829; 
+}
+
+.game-page {
+  border-left: 8px solid darkblue;
+  border-right: 8px solid darkblue;
+  padding: 40px 0;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.game-container iframe {
+  width: 610px;
+  height: 610px;
+  border: none;
+  display: block;
+}
+
+.game-page-body {
+  margin: 0;
+  background: url("/assets/img/skytree.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.game-title {
+  font-style: italic;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 800;
+  color: darkblue;
+  letter-spacing: 2px;
+  margin: 20px 0;
+}
+
+.whitebox {
+  border: 4px solid darkblue;
+  padding: 10px 20px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width: 80%;
+}
+
+.links {
+    white-space: nowrap;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.contactinfo {
+    font-size: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.tableauframe {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.tableauPlaceholder {
+  position: relative;
+  width: 100%;
+  padding-bottom: 75%;
+}
+
+.tableauPlaceholder object {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    color: #222;
+}
+
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 240px;
+    background: #ffffff;
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.sidebar img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.sidebar nav a {
+    display: block;
+    padding: 8px 0;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.sidebar nav a:hover {
+    color: #0077cc;
+}
+
+.sidebar-spacer {
+    flex: 1;
+}
+
+.contact {
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+}
+
+.content {
+    flex: 1;
+    padding: 40px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: 1px solid #b4b4b4;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+ul {
+    padding-left: 18px;
+}
+
+.tableau-container {
+    width: 100%;
+    height: clamp(500px, 70vh, 900px);
+    overflow: hidden;
+}
+
+@media (max-width: 400px) {
+    .layout {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    margin-top: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
